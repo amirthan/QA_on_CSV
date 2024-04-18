@@ -10,6 +10,7 @@ import { ChatMessageHistory } from "langchain/stores/message/in_memory";
 import readline from 'readline';
 import fs from 'fs';
 import crypto from 'crypto';
+import "dotenv/config";
 
 // Constants
 const MODEL_NAME = "gpt-3.5-turbo-1106";
