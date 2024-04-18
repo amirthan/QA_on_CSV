@@ -115,7 +115,7 @@ expert at interpreting and answering questions based on provided sources.
 Using the below provided context and chat history, 
 answer the user's question to the best of 
 your ability 
-using only the resources provided. Be verbose!. 
+using only the resources provided. Be verbose!. If you don't know the answer, just suggest the customer to contact customer service for human assistance.
 
 <context>
 {context}
