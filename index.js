@@ -126,7 +126,7 @@ const answerGenerationChainPrompt = ChatPromptTemplate.fromMessages([
   new MessagesPlaceholder("history"),
   [
     "human", 
-    "Now, answer this question using the previous context and chat history:\n{standalone_question}"
+    "Now, answer this question using the previous context and chat history:\n{question}"
   ]
 ]);
 
